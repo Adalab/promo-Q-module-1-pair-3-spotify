@@ -1,0 +1,43 @@
+header {
+    background-color: black;
+    padding: 20px;
+    height: 40px;
+}
+
+header .logo {
+    width: 120px;
+    float:  left;
+}
+
+header nav {
+    float:  right;
+}
+
+header .menu_icon {
+    float:  right;
+    height: 30px;
+}
+
+header nav ul li{
+    color: white;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+@media (max-width: 480px)  {
+    header .menu_icon {
+        display: block;
+    }
+    header nav {
+        display: none;
+    }
+}
+@media (min-width: 480px) {
+    header .menu_icon {
+        display: none;
+    }
+    header nav {
+        display: block;
+    }
+}
